@@ -7,14 +7,10 @@ This repository contains the code for the Ostad Module 2 assignment.
 Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/your-username/ostad_module_2_assignment.git
+    git clone https://github.com/your-username/ostad_module_2_assignment.git
+    cd ostad_module_2_assignment
+    node index.js
 
-Navigate to the project directory:
 
-   ```shell
-   cd ostad_module_2_assignment
-   
-Run the application:
-node index.js
 
 
