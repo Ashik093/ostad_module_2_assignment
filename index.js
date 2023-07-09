@@ -46,7 +46,7 @@ console.log(multiply(2, 3))
 
 //Exercise 6: 
 //getLargestNumber
-const getLargestNumber = (numOne, numTwo) => (numOne >= numTwo && numOne)  ||  (numTwo>=numOne && numTwo)
+const getLargestNumber = (numOne, numTwo) => (numOne >= numTwo && numOne) || (numTwo >= numOne && numTwo)
 
 console.log(getLargestNumber(10, 15))
 console.log(getLargestNumber(-10, -15))
@@ -56,7 +56,7 @@ console.log(getLargestNumber(-10, -15))
 //Exercise 7
 //getAddressCity
 
-const getAddressCity = address => address?.city ?? "Unknown";
+const getAddressCity = address => address ? .city ? ? "Unknown";
 
 console.log(getAddressCity({ street: '123 Main St', country: 'USA' }))
 console.log(getAddressCity({ street: '123 Main St', city: "New Work", country: 'USA' }))
